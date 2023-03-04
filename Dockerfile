@@ -1,5 +1,5 @@
-FROM amazonlinux:2022
-MAINTAINER Jesse DeFer <rpmbuild-al2022@dotd.com>
+FROM amazonlinux:2023
+MAINTAINER Jesse DeFer <rpmbuild-al2023@dotd.com>
 
 RUN dnf update -y 
 RUN dnf groupinstall -y "Development Tools"
